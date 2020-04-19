@@ -1,0 +1,117 @@
+/*https://colorhunt.co/palette/14832*/
+body{
+  background-color: #e4f9f5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: pink;
+  border-width: 4px;
+  width: 3%;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+/* CLASS Selectors */
+.top-container{
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  background-color: white;
+}
+.bottom-container{
+  background-color: pink;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skills-pics{
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+  margin-right: 30px;
+}
+.no-float-p{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+}
+.footer-link{
+  color: #11999E;
+}
+
+.skill-row{
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+  position: relative;
+}
+.contact-me{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* ID Selectors*/
+#pro_pic{
+  padding-top:20px;
+  border-radius: 100%
+}
